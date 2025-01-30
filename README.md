@@ -101,6 +101,8 @@ POST https://gql.portal.betta.com.mx/api/folio/cambiar/status
 - `statusId`: ID del nuevo estado del folio (debe coincidir con el tipo de folio: **Solicitud/Reporte/Trámite**).
   - Las **ID de estatus** se encuentran en el portal administrativo de Betta, en la configuración de estatus API.
 
+![Estatus](https://storage.googleapis.com/betta-prod/BETTA/estatuskey.png)
+
 ### **Respuesta (JSON)**
 
 ```json
@@ -119,6 +121,10 @@ POST https://gql.portal.betta.com.mx/api/folio/cambiar/status
 Los **Senders** permiten la integración de Betta con sistemas externos en tiempo real, notificando sobre folios generados.
 
 ### **Configuración**
+
+
+![Configuración](https://storage.googleapis.com/betta-prod/BETTA/senders.png)
+
 
 Desde la configuración de seguridad en el portal Betta, se deben definir:
 
