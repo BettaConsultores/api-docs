@@ -4,7 +4,7 @@
 
 Para realizar cualquier operación en el entorno de **Betta**, es obligatorio generar un **BettaAuth Token** desde el panel administrativo. A considerar:
 
-- Cada token es **específico para una funcionalidad** y debe ser aprobado por **Betta** antes de su activación por razones de seguridad y privacidad, basadas en los estándares de **ISO N...**.
+- Cada token es **específico para una funcionalidad** y debe ser aprobado por **Betta** antes de su activación por razones de seguridad y privacidad, basadas en los estándares de **ISO/IEC 27001 y su extensión ISO/IEC 27701**.
 - **No se permiten consultas masivas**, ni por rangos de fecha, ni descargas masivas.
 - Todas las consultas realizadas a la API son **registradas y monitoreadas**.
 - Cualquier intento de descarga masiva o consulta automatizada en bucle será detectado por el sistema, resultando en la **desactivación del API y la inclusión de la IP en una lista negra**.
@@ -160,5 +160,6 @@ Para consultas técnicas, contactar con el equipo de soporte de **Betta** a trav
 
 **Última actualización:** 30/01/2025
 
-**Jonatan dos Santos**
-CTO / Founder
+**Jonatan dos Santos**  
+_<small>jonatan@betta.com.mx</small>_  
+_<small>CTO / Founder<small>_
