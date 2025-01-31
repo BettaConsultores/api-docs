@@ -12,6 +12,23 @@ Para realizar cualquier operación en el entorno de **Betta**, es obligatorio ge
 
 ---
 
+## Headers BettaAuth
+
+
+```
+{
+  "Betta-Auth": "AQUI_VA_TU_TOKEN"
+}
+```
+
+El token se generará desde el Portal, vinculado a un usuario y un catálogo específico, y será registrado en el historial de cambios. Su emisión estará sujeta a la aprobación previa por parte del equipo Betta.
+
+Este token servirá como una identificación única, con encriptación, diseñada exclusivamente para uso interno del servidor. Es importante mantenerlo privado y evitar su exposición pública. 
+
+**En caso de uso indebido, el token podría ser suspendido temporalmente**.
+
+---
+
 ## 1. Consultar Folio
 
 ### **Endpoint**
