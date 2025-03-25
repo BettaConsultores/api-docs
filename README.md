@@ -21,7 +21,13 @@ Para realizar cualquier operación en el entorno de **Betta**, es obligatorio ge
 }
 ```
 
+
+
 El token se generará desde el Portal, vinculado a un usuario y un catálogo específico, y será registrado en el historial de cambios. Su emisión estará sujeta a la aprobación previa por parte del equipo Betta.
+
+Solicita acceso a SIG -> Catalogos -> Api Headers
+
+![Generar Header](https://storage.googleapis.com/betta-prod/BETTA/Captura%20de%20pantalla%202025-03-25%20a%20la(s)%203.52.48%E2%80%AFp.m..png)
 
 Este token servirá como una identificación única, con encriptación, diseñada exclusivamente para uso interno del servidor. Es importante mantenerlo privado y evitar su exposición pública. 
 
